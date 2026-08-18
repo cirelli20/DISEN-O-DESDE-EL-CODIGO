@@ -3,370 +3,171 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Presentación personal y portafolio académico de Antonia Cirelli Gonzalez Tapia, estudiante de Diseño."
-  />
-
+  <meta name="description" content="Portafolio de Antonia González Tapia, estudiante de Diseño PUCV con formación en artes visuales, diseño gráfico, UX/UI y medios digitales." />
   <title>Antonia González — Diseño</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
-    rel="stylesheet"
-  >
-
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <!-- =========================
-       NAVEGACIÓN
-  ========================== -->
   <header class="site-header">
-    <a href="#inicio" class="logo">ANTONIA<span>G.</span></a>
-
+    <a href="index.html" class="logo">ANTONIA<span>G.</span></a>
     <nav class="nav">
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#formacion">Formación</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#travesia">Travesía</a>
+      <a class="active" href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="experiencia.html">Experiencia</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
-
-    <a href="#contacto" class="mini-button">Contacto</a>
+    <a href="contacto.html" class="mini-button">Hablemos</a>
   </header>
 
   <main>
-    <!-- =========================
-         HERO
-    ========================== -->
     <section class="hero" id="inicio">
       <div class="hero-glow glow-one"></div>
       <div class="hero-glow glow-two"></div>
-
       <div class="hero-content">
         <p class="eyebrow hero-eyebrow reveal">Hola, soy</p>
-
-        <h1 class="reveal">
-          Antonia<br>
-          <em>González</em>
-        </h1>
-
+        <div class="hero-name reveal">
+          <h1>Antonia<br><em>González</em></h1>
+          <div class="hero-photo placeholder-photo" role="img" aria-label="Espacio para fotografía de Antonia">
+           <img src="img/foto-antonia.jpg" alt="foto de antonia">
+          </div>
+        </div>
         <p class="hero-copy reveal">
-          Estudiante de Diseño de la Escuela de Arquitectura y Diseño PUCV.
-          Me interesa explorar la identidad visual, el diseño editorial,
-          los servicios y las experiencias digitales e interactivas.
+          Estudiante de Diseño en la Pontificia Universidad Católica de Valparaíso, con formación previa en Artes Visuales y especial interés en diseño gráfico, editorial, UX/UI, experiencias digitales y procesos análogos.
         </p>
-
         <div class="hero-actions reveal">
-          <a href="#sobre-mi" class="button primary">Conóceme</a>
-          <a href="#proyectos" class="button ghost">Ver proyectos</a>
+          <a href="proyectos.html" class="button primary">Ver proyectos</a>
+          <a href="experiencia.html" class="button ghost">Mi experiencia</a>
         </div>
       </div>
-
       <div class="hero-footer">
-        <span>DISEÑO · IDENTIDAD · SERVICIOS · INTERACCIÓN</span>
-        <span>CHILE · INGRESO 2023</span>
+        
+        <span>DISEÑO · ARTE · UX/UI · EDITORIAL · INTERACCIÓN</span>
       </div>
     </section>
 
-    <!-- =========================
-         SOBRE MÍ
-    ========================== -->
-    <section class="section about" id="sobre-mi">
+    <section class="section about">
       <div class="section-number">01</div>
-
       <div class="section-heading reveal">
-        <p class="eyebrow dark">Sobre mí</p>
-        <h2>
-          Diseño para observar,<br>
-          comunicar y <em>crear experiencias.</em>
-        </h2>
+        <p class="eyebrow dark">Perfil</p>
+        <h2>Entre lo <em>análogo</em><br>y lo digital.</h2>
       </div>
-
       <div class="about-grid">
         <article class="card lavender reveal">
-          <p class="card-label">Perfil</p>
-          <h3>Estudiante de Diseño.</h3>
-          <p>
-            Ingresé a la carrera de Diseño en 2023. Mi formación ha recorrido
-            áreas como luz y color, ciudad legible, edición, servicios e
-            interacción, combinando observación, investigación y creación.
-          </p>
+          <p class="card-label">Diseño</p>
+          <h3>Una práctica amplia y flexible.</h3>
+          <p>He explorado diseño gráfico, editorial, interacción, servicios, interfaces y herramientas digitales, combinando observación, investigación y producción visual.</p>
         </article>
-
+        <article class="card light reveal">
+          <p class="card-label">Artes visuales</p>
+          <h3>Base material y artística.</h3>
+          <p>Mi formación previa en Bellas Artes, con especialidad en pintura, aporta una mirada sensible hacia el color, la composición, la materialidad y los procesos manuales.</p>
+        </article>
         <article class="card image-card reveal">
           <div class="abstract-art" aria-hidden="true">
-            <div class="shape shape-a"></div>
-            <div class="shape shape-b"></div>
-            <div class="shape shape-c"></div>
-            <span>AG</span>
+            <div class="shape shape-a"></div><div class="shape shape-b"></div><div class="shape shape-c"></div><span>AG</span>
           </div>
         </article>
-
-        <article class="card light reveal">
-          <p class="card-label">Mi interés</p>
-          <h3>De lo gráfico a lo interactivo.</h3>
-          <p>
-            Me interesa construir lenguajes visuales coherentes, experimentar
-            con la forma y trasladar esas decisiones a publicaciones,
-            identidades, interfaces y experiencias.
-          </p>
-        </article>
-      </div>
-
-      <div class="profile-link-wrap reveal">
-        <a
-          class="text-link"
-          href="https://wiki.ead.pucv.cl/Antonia_Cirelli_Gonzalez_Tapia"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ver perfil académico en Casiopea ↗
-        </a>
       </div>
     </section>
 
-    <!-- =========================
-         FORMACIÓN
-    ========================== -->
-    <section class="section education" id="formacion">
+    <section class="section highlights">
       <div class="section-number">02</div>
-
       <div class="section-heading reveal">
-        <p class="eyebrow dark">Formación</p>
-        <h2>
-          Talleres y cursos que<br>
-          han marcado mi <em>proceso.</em>
-        </h2>
+        <p class="eyebrow dark">Lo principal</p>
+        <h2>Un vistazo a mi <em>recorrido.</em></h2>
       </div>
-
-      <div class="timeline">
-        <article class="timeline-item reveal">
-          <div class="timeline-year">2026</div>
-          <div>
-            <p class="timeline-type">Taller</p>
-            <h3>Taller de Diseño de Interacción</h3>
-            <p>
-              Exploración de sistemas interactivos, navegación, experiencia
-              digital y traducción de dinámicas físicas a interfaces.
-            </p>
-          </div>
-        </article>
-
-        <article class="timeline-item reveal">
-          <div class="timeline-year">2025</div>
-          <div>
-            <p class="timeline-type">Taller</p>
-            <h3>Taller de Diseño de Servicios</h3>
-            <p>
-              Investigación centrada en usuarios, observación de servicios y
-              desarrollo de propuestas usando metodologías de diseño.
-            </p>
-          </div>
-        </article>
-
-        <article class="timeline-item reveal">
-          <div class="timeline-year">2025</div>
-          <div>
-            <p class="timeline-type">Taller</p>
-            <h3>Taller de la Ocasión Editorial</h3>
-            <p>
-              Trabajo sobre edición, composición y articulación de contenido
-              mediante decisiones gráficas y editoriales.
-            </p>
-          </div>
-        </article>
-
-        <article class="timeline-item reveal">
-          <div class="timeline-year">2024</div>
-          <div>
-            <p class="timeline-type">Taller</p>
-            <h3>Taller Ciudad Legible</h3>
-            <p>
-              Aproximación al territorio, la lectura del espacio y la
-              comunicación visual en relación con la ciudad.
-            </p>
-          </div>
-        </article>
-
-        <article class="timeline-item reveal">
-          <div class="timeline-year">2023</div>
-          <div>
-            <p class="timeline-type">Taller</p>
-            <h3>Taller Luz y Color</h3>
-            <p>
-              Estudio de la percepción, el color y la construcción visual como
-              fundamentos del diseño.
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="course-chips reveal">
-        <span>Producción Gráfica · 2024</span>
-        <span>Diseño y Cultura Contemporánea · 2025</span>
-        <span>Imagen Escrita · 2023</span>
-        <span>El dibujo como herramienta de conocimiento · 2023</span>
-      </div>
-    </section>
-
-    <!-- =========================
-         PROYECTOS
-    ========================== -->
-    <section class="section projects" id="proyectos">
-      <div class="section-number">03</div>
-
-      <div class="section-heading reveal">
-        <p class="eyebrow dark">Proyectos</p>
-        <h2>
-          Distintas escalas para<br>
-          una misma <em>forma de diseñar.</em>
-        </h2>
-      </div>
-
-      <div class="project-grid">
-        <a
-          class="project-card project-one reveal"
-          href="https://wiki.ead.pucv.cl/Enr%C3%BAtate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="project-top">
-            <span>01</span>
-            <span>INTERACCIÓN · 2026 ↗</span>
-          </div>
-
-          <div>
-            <h3>Enrútate</h3>
-            <p>
-              Juego dinámico para 3 a 6 jugadores en el que cada recorrido,
-              decisión y modificación del tablero puede cambiar la partida.
-            </p>
-          </div>
+      <div class="highlight-grid">
+        <a class="highlight-card reveal" href="proyectos.html">
+          <span class="highlight-index">01</span>
+          <h3>Proyectos</h3>
+          <p>Selección de trabajos académicos y personales, con espacio para imágenes, procesos y resultados.</p>
+          <span class="text-link">Explorar proyectos →</span>
         </a>
-
-        <a
-          class="project-card project-two reveal"
-          href="https://wiki.ead.pucv.cl/Proyecto_de_Dise%C3%B1o_de_Servicios_-_El_pasaje"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="project-top">
-            <span>02</span>
-            <span>SERVICIOS · 2025 ↗</span>
-          </div>
-
-          <div>
-            <h3>El Pasaje</h3>
-            <p>
-              Proyecto de Diseño de Servicios desarrollado para una cafetería
-              y librería comunitaria, desde la observación hasta la
-              implementación de propuestas gráficas y digitales.
-            </p>
-          </div>
+        <a class="highlight-card reveal" href="experiencia.html">
+          <span class="highlight-index">02</span>
+          <h3>Experiencia</h3>
+          <p>Pasantías, talleres, formación académica, herramientas y conocimientos construidos a lo largo de los años.</p>
+          <span class="text-link">Ver experiencia →</span>
         </a>
-
-        <a
-          class="project-card project-three reveal"
-          href="https://wiki.ead.pucv.cl/Antonia_gonzalez_sitio_web_2023"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="project-top">
-            <span>03</span>
-            <span>DIGITAL · 2023 ↗</span>
-          </div>
-
-          <div>
-            <h3>Proyecto web 2023</h3>
-            <p>
-              Una de mis primeras aproximaciones académicas al diseño y
-              construcción de un sitio web dentro del curso Imagen Escrita.
-            </p>
-          </div>
+        <a class="highlight-card reveal" href="contacto.html">
+          <span class="highlight-index">03</span>
+          <h3>Contacto</h3>
+          <p>Correo, LinkedIn y vías para conversar sobre prácticas, proyectos, colaboraciones o trabajo.</p>
+          <span class="text-link">Contactarme →</span>
         </a>
       </div>
     </section>
 
-    <!-- =========================
-         TRAVESÍA
-    ========================== -->
-    <section class="section journey" id="travesia">
-      <div class="section-number">04</div>
+    <section class="section skills-preview">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">Herramientas</p>
+        <h2>Trabajo con distintos<br><em>lenguajes y medios.</em></h2>
+      </div>
 
-      <div class="journey-panel reveal">
-        <div class="journey-copy">
-          <p class="eyebrow">Travesía realizada</p>
-          <h2>Punta del<br><em>Diablo</em></h2>
-          <p>
-            En 2025 participé en la Travesía Punta del Diablo, experiencia
-            vinculada al Taller de Diseño de Servicios y al trabajo colectivo
-            de la Escuela.
-          </p>
-
-          <a
-            href="https://wiki.ead.pucv.cl/Traves%C3%ADa_Punta_del_Diablo"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button ghost journey-button"
-          >
-            Ver travesía ↗
-          </a>
+      <div class="logo-grid reveal" aria-label="Herramientas y programas">
+        <div class="logo-card">
+          <img src="img/logos/ID.png" alt="Adobe InDesign" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>InDesign</div>
         </div>
 
-        <div class="journey-graphic" aria-hidden="true">
-          <span>2025</span>
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="journey-dot"></div>
+        <div class="logo-card">
+          <img src="img/logos/PS.jpeg" alt="Adobe Photoshop" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Photoshop</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/AI.jpeg" alt="Adobe Illustrator" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Illustrator</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/procreate.jpeg" alt="Procreate" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Procreate</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/Figma-logo.svg" alt="Figma" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Figma</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/Blender.jpeg" alt="Blender" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Blender</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/fusion360.jpeg" alt="Fusion 360" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Fusion 360</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="img/logos/VS.jpeg" alt="Wix" class="tool-logo" data-logo>
+          <div class="logo-placeholder">Logo<br>Wix</div>
         </div>
       </div>
+
+      <!--
+        Para agregar los logos, guarda las imágenes dentro de img/logos/
+        usando estos nombres:
+        indesign.png, photoshop.png, illustrator.png, procreate.png,
+        figma.png, blender.png, fusion360.png y wix.png.
+        No necesitas modificar este HTML.
+      -->
     </section>
 
-    <!-- =========================
-         CONTACTO
-    ========================== -->
-    <section class="contact reveal" id="contacto">
-      <p class="eyebrow">Contacto</p>
-
-      <h2>
-        Sigamos<br>
-        <em>conversando.</em>
-      </h2>
-
-      <p>
-        Puedes escribirme por correo o revisar mi perfil académico para conocer
-        con más detalle mis talleres, cursos, proyectos y trabajos.
-      </p>
-
-      <div class="contact-actions">
-        <a
-          href="mailto:antonia.gonzalez.t@mail.pucv.cl"
-          class="button primary light-button"
-        >
-          antonia.gonzalez.t@mail.pucv.cl
-        </a>
-
-        <a
-          href="https://wiki.ead.pucv.cl/Antonia_Cirelli_Gonzalez_Tapia"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button ghost"
-        >
-          Casiopea ↗
-        </a>
-      </div>
+    <section class="contact-cta reveal">
+      <p class="eyebrow">¿Trabajamos juntas/os?</p>
+      <h2>Conversemos sobre<br><em>una idea.</em></h2>
+      <a href="contacto.html" class="button primary">Ir a contacto</a>
     </section>
   </main>
 
   <footer>
-    <span>© 2026 Antonia González</span>
-    <span>Estudiante de Diseño · PUCV</span>
-    <a href="#inicio">Volver arriba ↑</a>
+    <span>© 2026 Antonia González</span><span>Diseño · PUCV</span><a href="#inicio">Volver arriba ↑</a>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
